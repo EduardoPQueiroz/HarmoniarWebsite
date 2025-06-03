@@ -1,0 +1,12 @@
+#ft-container{
+    background-color: #030027;
+    color: #fcf7f8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content_container{
+    display: flex;
+    justify-items: center;
+    align-items: baseline;
+}
