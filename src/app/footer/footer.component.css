@@ -1,0 +1,48 @@
+#ft-container{
+    background-color: #030027;
+    color: #fcf7f8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+    font-family: 'Inter', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+.content_container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+.ft-section{
+    padding: 2em 7em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#midiasSection{
+    display: flex;
+    align-items: center;
+}
+.ft-linkscontainer{
+    display: flex;
+    align-items: center
+    
+}
+.ft-div-title{
+    font-size: 25px;
+}
+
+.LogoImg{
+    width: 15em;
+
+}
+.LinkIcon{
+    width: 25px;
+    padding: 1em 1em 1em 0;
+}
+.MediaIcon{
+    width: 2em;
+    padding: 1vh;
+}
