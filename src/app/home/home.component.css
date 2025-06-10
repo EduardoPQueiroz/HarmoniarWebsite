@@ -1,17 +1,17 @@
 #ft-container{
-    font-family: 'Inter', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
+    font-family: 'Inter', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .darkcontainer h1{
-    font-size: 80px;
-    padding:1rem;
+    font-size: 50px;
+    padding:3rem;
     font-weight: bold;
 }
 
 .darkcontainer p{
     margin:30px;
-    font-size: 50px;
-    padding:1rem;
+    font-size: 25px;
+    padding:3rem;
 }
 
 .darkcontainer{
@@ -21,22 +21,23 @@
     padding:2rem;
     background-color: #030027;
     align-items: center;
-    margin:4rem;
+    margin:3rem;
 }
 
 .darkcontainer button{
-    margin: 2rem;
-    font-size: 50px;
+    margin: 3rem;
+    font-size: 30px;
     border-radius: 30px/30%;
     background-color: #ee964b;
     color:#fcf7f8;
-    width:40rem;
-    height: 8rem;
+    width:20rem;
+    height: 5rem;
+    font-weight: bold;
+
 }
 
 .darkcontainer img{
-    padding:1rem;
-    width: 60rem;
+    margin:3rem;
     height: 25rem;
 }
 
@@ -52,20 +53,22 @@
 
 .whitecontainer p{
     margin:30px;
-    font-size: 50px;
+    font-size: 25px;
     padding:1rem;
 }
 
 .back{
-    font-size: 100px;
+    font-size: 50px;
     background-image: url(./../../assets/img/Harmoniar_arquivos/image.png);
-    width: 100rem;
+    padding-left: 30vw;
+    padding-right: 30vw;
     height: 20rem;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
-    display: flex;
-    justify-content: center;  
-    align-items: center; 
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    align-items: center;
 }
 
