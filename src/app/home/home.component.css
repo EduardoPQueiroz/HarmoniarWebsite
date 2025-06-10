@@ -1,0 +1,71 @@
+#ft-container{
+    font-family: 'Inter', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
+}
+
+.darkcontainer h1{
+    font-size: 80px;
+    padding:1rem;
+    font-weight: bold;
+}
+
+.darkcontainer p{
+    margin:30px;
+    font-size: 50px;
+    padding:1rem;
+}
+
+.darkcontainer{
+    color: #fcf7f8;
+    display: grid;
+    place-items: center;
+    padding:2rem;
+    background-color: #030027;
+    align-items: center;
+    margin:4rem;
+}
+
+.darkcontainer button{
+    margin: 2rem;
+    font-size: 50px;
+    border-radius: 30px/30%;
+    background-color: #ee964b;
+    color:#fcf7f8;
+    width:40rem;
+    height: 8rem;
+}
+
+.darkcontainer img{
+    padding:1rem;
+    width: 60rem;
+    height: 25rem;
+}
+
+.whitecontainer{
+    color: #030027;
+    display: grid;
+    place-items: center;
+    padding:2rem;
+    background-color: #fcf7f8;
+    align-items: center;
+    margin:4rem;
+}
+
+.whitecontainer p{
+    margin:30px;
+    font-size: 50px;
+    padding:1rem;
+}
+
+.back{
+    font-size: 100px;
+    background-image: url(./../../assets/img/Harmoniar_arquivos/image.png);
+    width: 100rem;
+    height: 20rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;  
+    align-items: center; 
+}
+
