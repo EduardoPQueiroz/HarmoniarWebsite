@@ -1,0 +1,47 @@
+.header {
+  font-family:Inter;
+  font-size: 25px;
+  display:flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly; /* distribui igualmente */
+  background-color: #030027;
+}
+
+.header nav{
+  display:flex;
+  flex-direction: row;
+}
+
+.header nav a {
+  color: white;
+
+}
+
+.header nav a:hover {
+  text-decoration: underline;
+}
+.casa{
+  color: white;
+    width: 25px;
+    height: 25px;
+}
+.user{
+  color: white;
+    width: 25px;
+    height: 25px;
+}
+.missao{
+  color: white;
+    width: 20px;
+    height: 27px;
+}
+.app{
+  color: white;
+    width: 20px;
+    height: 27px;
+}
+.imagens{
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
