@@ -41,7 +41,6 @@
 .ft-linkscontainer a:hover{
   text-decoration: underline;
   color: #fcf7f8;
-  transform: ;
 }
 /* fim LINKS */
 
@@ -72,3 +71,6 @@
 
 }
 /* Social Media Icons end */
+.ft-text{
+  margin: 3vh;
+}
