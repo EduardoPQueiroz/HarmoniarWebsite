@@ -12,7 +12,7 @@ bootstrapApplication(AppComponent, {
     provideRouter([
       { path: '', component: HomeComponent },
       // { path: 'sobre-nos', component: SobreNosComponent },
-      { path: 'mvv', component: MVVComponent },
+      { path: 'MVV', component: MVVComponent },
       // { path: 'nosso-aplicativo', component: NossoAplicativoComponent },
       { path: '**', redirectTo: '' }
     ])
