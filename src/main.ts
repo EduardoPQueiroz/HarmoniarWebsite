@@ -3,7 +3,7 @@ import { AppComponent } from './app/app.component';
 import { provideRouter } from '@angular/router';
 
 import { HomeComponent } from './app/home/home.component';
-// import { SobreNosComponent } from './app/sobre-nos/sobre-nos.component';
+import { AboutUsComponent } from './app/about-us/about-us.component';
 
 import { MVVComponent } from './app/mvv/mvv.component';
 
@@ -13,7 +13,8 @@ bootstrapApplication(AppComponent, {
   providers: [
     provideRouter([
       { path: '', component: HomeComponent },
-      // { path: 'sobre-nos', component: SobreNosComponent },
+      
+      { path: 'sobre-nos', component: AboutUsComponent},
 
       { path: 'missao-valores', component: MVVComponent },
 
