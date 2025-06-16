@@ -1,7 +1,7 @@
 import { bootstrapApplication } from '@angular/platform-browser';
 import { AppComponent } from './app/app.component';
 import { provideRouter } from '@angular/router';
-
+import { withInMemoryScrolling  } from '@angular/router';
 import { HomeComponent } from './app/home/home.component';
 import { AboutUsComponent } from './app/about-us/about-us.component';
 
@@ -23,6 +23,8 @@ bootstrapApplication(AppComponent, {
 
       //withScrollPositionRestauration('Enabled'),
       //withViewTransitions(),
-    ])
+    ],
+    withInMemoryScrolling({ scrollPositionRestoration: 'enabled' })
+  )
   ]
 });
