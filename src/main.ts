@@ -13,13 +13,16 @@ bootstrapApplication(AppComponent, {
   providers: [
     provideRouter([
       { path: '', component: HomeComponent },
-      
+
       { path: 'sobre-nos', component: AboutUsComponent},
 
       { path: 'missao-valores', component: MVVComponent },
 
       // { path: 'nosso-aplicativo', component: NossoAplicativoComponent },
-      { path: '**', redirectTo: '' }
+      { path: '**', redirectTo: '' },
+
+      //withScrollPositionRestauration('Enabled'),
+      //withViewTransitions(),
     ])
   ]
 });
