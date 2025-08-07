@@ -6,6 +6,7 @@
   flex-direction: row;
   justify-content: space-evenly; /* distribui igualmente */
   background-color: #030027;
+  border-bottom: 4px solid #ee964b; /* cor, espessura e estilo da "margem" */
 }
 
 .header nav{
