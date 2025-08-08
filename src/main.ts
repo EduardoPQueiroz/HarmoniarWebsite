@@ -6,6 +6,7 @@ import { HomeComponent } from './app/home/home.component';
 import { AboutUsComponent } from './app/about-us/about-us.component';
 
 import { MVVComponent } from './app/mvv/mvv.component';
+import { MbComponent } from './app/mb/mb.component';
 
 // import { NossoAplicativoComponent } from './app/nosso-aplicativo/nosso-aplicativo.component';
 
@@ -18,7 +19,7 @@ bootstrapApplication(AppComponent, {
 
       { path: 'missao-valores', component: MVVComponent },
 
-      // { path: 'nosso-aplicativo', component: NossoAplicativoComponent },
+      { path: 'nosso-aplicativo', component: MbComponent },
       { path: '**', redirectTo: '' },
 
       //withScrollPositionRestauration('Enabled'),
