@@ -15,9 +15,9 @@
 
 
 #first-paragraph {
-  position: relative;   
-  display: block;      
-  padding-right: 420px; 
+  position: relative;
+  display: block;
+  padding-right: 31%;
   margin-top: 8%;
   margin-bottom: 3%;
 }
@@ -29,21 +29,20 @@
   margin-right: 3%;
 
 
+
 }
 
 #first-paragraph img {
   position: absolute;
   margin-right: 10%;
   margin-bottom: -2%;
-  right: 0px;     
-  bottom: 20px;    
-  height: 350px;  
-   
+  right: 0px;
+  bottom: 20px;
+  height: 350px;
 
- 
+
+
 }
-
-
 
 
 #second-paragraph{
