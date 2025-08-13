@@ -4,8 +4,9 @@
  align-items: center ;
  text-align: center;
  justify-content: center ;
- margin-top: 5%;
- margin-bottom: 5%;
+ padding: 3rem;
+ background-color: #030027;
+ color:#fcf7f8 ;
 }
 
 #title{

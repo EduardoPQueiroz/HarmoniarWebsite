@@ -2,54 +2,35 @@
     font-family: 'Inter', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.darkcontainer h1{
-    font-size: 50px;
-    padding:3rem;
-    font-weight: bold;
-}
-
-.darkcontainer p{
-    margin:30px;
-    font-size: 25px;
-    padding:3rem;
-}
-
 .darkcontainer{
     color: #fcf7f8;
-    display: grid;
+    display: flex;
     place-items: center;
-    padding:2rem;
+    padding:5rem;
     background-color: #030027;
     align-items: center;
-    margin:3rem;
 }
 
-button{
-    margin: 3rem;
-    font-size: 30px;
-    border-radius: 30px/30%;
-    background-color: #ee964b;
-    color:#fcf7f8;
-    width:20rem;
-    height: 5rem;
-    font-weight: bold;
-
-}
-
-.darkcontainer img{
-    margin:3rem;
-    height: 25rem;
+.darkcontainer button{
+background-color: #ee964b;
 }
 
 .whitecontainer{
-    color: #030027;
-    display: grid;
+    color: #fcf7f8;
+    display: flex;
     place-items: center;
-    padding:2rem;
-    background-color: #fcf7f8;
+    padding:5rem;
+    background-color: #ee964b;
     align-items: center;
-    margin:4rem;
 }
+
+img{
+    margin:2rem;
+    height: auto;
+    max-width: 40%;
+}
+
+
 
 .whitecontainer p{
     margin:30px;
@@ -57,18 +38,64 @@ button{
     padding:1rem;
 }
 
-.back{
-    font-size: 50px;
-    background-image: url(./../../assets/img/Harmoniar_arquivos/image.png);
-    padding-left: 30vw;
-    padding-right: 30vw;
-    height: 20rem;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center center;
+.whitecontainer button{
+background-color: #030027;
+}
+
+.intro{
+    color: #fcf7f8;
     display: grid;
     place-items: center;
-    justify-content: center;
+    padding:5rem;
+    background-color: #030027;
     align-items: center;
+}
+
+button{
+    margin: 3rem;
+    font-size: 20px;
+    border-radius: 30px/60%;
+    color:#fcf7f8;
+    width:15rem;
+    height: 3rem;
+    font-weight: bold;
+}
+
+.back{
+    padding: 5rem;
+    display: flex;
+    width: 35em;
+    height: 12em;
+    align-items: center;
+}
+
+.subtitle{
+    padding: 10rem;
+}
+
+h1{
+    font-size: 50px;
+    padding:3rem;
+    font-weight: bold;
+}
+
+p{
+    margin:30px;
+    font-size: 25px;
+    padding:3rem;
+}
+
+.TextBlock{
+    place-items: center;
+    width: 40rem;
+    margin-left: auto;
+    padding: 5rem;
+}
+
+.TextBlockW{
+    place-items: center;
+    width: 40rem;
+    margin-right: auto;
+    padding: 5rem;
 }
 
