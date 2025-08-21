@@ -24,13 +24,15 @@ background-color: #ee964b;
     align-items: center;
 }
 
-img{
-    margin:2rem;
+.whitecontainer img{
+    height: auto;
+    max-width: 30%;
+}
+
+.darkcontainer img{
     height: auto;
     max-width: 40%;
 }
-
-
 
 .whitecontainer p{
     margin:30px;
