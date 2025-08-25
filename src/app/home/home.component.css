@@ -6,7 +6,7 @@
     color: #fcf7f8;
     display: flex;
     place-items: center;
-    padding:5rem;
+    padding:30px;
     background-color: #030027;
     align-items: center;
 }
@@ -19,14 +19,14 @@ background-color: #ee964b;
     color: #fcf7f8;
     display: flex;
     place-items: center;
-    padding:5rem;
+    padding:50px;
     background-color: #ee964b;
     align-items: center;
 }
 
 .whitecontainer img{
     height: auto;
-    max-width: 30%;
+    max-width: 35%;
 }
 
 .darkcontainer img{
@@ -34,11 +34,7 @@ background-color: #ee964b;
     max-width: 40%;
 }
 
-.whitecontainer p{
-    margin:30px;
-    font-size: 25px;
-    padding:1rem;
-}
+
 
 .whitecontainer button{
 background-color: #030027;
@@ -54,7 +50,7 @@ background-color: #030027;
 }
 
 button{
-    margin: 3rem;
+    
     font-size: 20px;
     border-radius: 30px/60%;
     color:#fcf7f8;
@@ -75,29 +71,90 @@ button{
     padding: 10rem;
 }
 
-h1{
-    font-size: 50px;
-    padding:3rem;
+#ft-container h1{
+    font-size: 3rem;
+    padding:1rem;
     font-weight: bold;
 }
 
-p{
-    margin:30px;
-    font-size: 25px;
-    padding:3rem;
+#ft-container p{
+    font-size: 1.5rem;
+    margin:3rem;
+    padding:1rem;
 }
 
 .TextBlock{
     place-items: center;
-    width: 40rem;
+    width: 50%;
     margin-left: auto;
-    padding: 5rem;
+   
 }
 
 .TextBlockW{
     place-items: center;
-    width: 40rem;
+    width: 50%;
     margin-right: auto;
-    padding: 5rem;
+}
+.MobileContainer{
+    font-family: 'Inter', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: center;
+    font-size: 1vw;
 }
 
+.MobileContainer p{
+    font-size: 1.5rem;
+}
+
+.MobileContainer h1{
+    font-size: 2rem;
+    padding: none;
+}
+
+.mobileD{
+    padding: 1rem;
+    place-items: center;
+    display: none;
+    background-color: #030027;
+    align-items: center;
+    color: #fcf7f8;
+}
+.mobileW{
+    padding: 3rem;
+    place-items: center;
+    display: none;
+    background-color: #ee964b;
+    align-items: center;
+    color: #fcf7f8;
+}
+.imgMobile{
+    padding: 2rem;
+    width: 500px;
+    max-height: 400px;
+}
+
+.Dbutton{
+    background-color: #ee964b;
+    color: #fcf7f8;
+}
+
+.Wbutton{
+    background-color: #030027;
+    color: #fcf7f8;
+}
+img[alt*="intro"]{
+    padding-top: 100px;
+}
+
+@media (max-width: 1000px) {
+    #ft-container{
+        display: none;
+    }
+    .mobileD{
+        display: block;
+    }
+    .mobileW{
+        display: block;
+    }
+
+
+}

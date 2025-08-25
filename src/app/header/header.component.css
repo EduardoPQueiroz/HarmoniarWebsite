@@ -8,6 +8,70 @@
   background-color: #030027;
   border-bottom: 4px solid #ee964b; /* cor, espessura e estilo da "margem" */
 }
+.Mobile{
+  font-family:Inter;
+  font-size: 25px;
+  display:none;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between; /* distribui igualmente */
+  background-color: #030027;
+  border-bottom: 4px solid #ee964b; /* cor, espessura e estilo da "margem" */
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+
+.hamburguer {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50px;   /* largura do botão */
+  height: 50px;  /* altura do botão */
+  background: none;
+  border:none;
+  
+}
+
+.hamburguer span {
+  height: 10px;         /* espessura da linha */
+  background: white;   /* cor das linhas */
+  border-radius: 2px;
+}
+
+.mobile-menu {
+  display: none;
+  flex-direction: column;
+  background: black;
+  padding: 1em;
+}
+.mobile-menu a {
+  color: white;
+  padding: 0.5em 0;
+}
+
+
+
+
+
+
+@media (max-width: 1000px) {
+.Mobile{
+display: flex;
+}
+.header{
+  display: none;
+}
+.hamburguer{
+  display:flex;
+}
+.mobile-menu{
+  display:flex;
+}
+
+}
+
+
 
 .header nav{
   display:flex;
@@ -52,3 +116,9 @@
   width: 12em;
   padding: 1em;
 }
+#LogoMobile{
+  width: 12em;
+  padding: 1em;display: flex;
+}
+
+
