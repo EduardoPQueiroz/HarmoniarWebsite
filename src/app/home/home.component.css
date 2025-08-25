@@ -50,7 +50,11 @@ background-color: #030027;
 }
 
 button{
-    
+  display: flex;
+  text-align: center;
+  place-items: center;
+  align-items: center;
+
     font-size: 20px;
     border-radius: 30px/60%;
     color:#fcf7f8;
@@ -87,7 +91,7 @@ button{
     place-items: center;
     width: 50%;
     margin-left: auto;
-   
+
 }
 
 .TextBlockW{
@@ -127,14 +131,19 @@ button{
     color: #fcf7f8;
 }
 .imgMobile{
+  display: flex;
     padding: 2rem;
     width: 500px;
     max-height: 400px;
+    place-items: center;
+    align-items: center;
 }
 
 .Dbutton{
     background-color: #ee964b;
     color: #fcf7f8;
+    align-items: center;
+    place-items: center;
 }
 
 .Wbutton{
@@ -143,6 +152,7 @@ button{
 }
 img[alt*="intro"]{
     padding-top: 100px;
+    place-items: center;
 }
 
 @media (max-width: 1000px) {
