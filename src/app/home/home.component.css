@@ -50,7 +50,6 @@ background-color: #030027;
 }
 
 button{
-  display: flex;
   text-align: center;
   place-items: center;
   align-items: center;
@@ -61,6 +60,11 @@ button{
     width:15rem;
     height: 3rem;
     font-weight: bold;
+    transition: transform 0.3s ease;
+}
+
+button:hover{
+  transform: scale(1.2);
 }
 
 .back{
@@ -72,7 +76,7 @@ button{
 }
 
 .subtitle{
-    padding: 10rem;
+    padding: 5rem;
 }
 
 #ft-container h1{
@@ -84,13 +88,14 @@ button{
 #ft-container p{
     font-size: 1.5rem;
     margin:3rem;
-    padding:1rem;
+    padding:3rem;
 }
 
 .TextBlock{
     place-items: center;
     width: 50%;
     margin-left: auto;
+    padding: 6.8rem;
 
 }
 
@@ -98,6 +103,7 @@ button{
     place-items: center;
     width: 50%;
     margin-right: auto;
+    padding: 6.8rem;
 }
 .MobileContainer{
     font-family: 'Inter', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;

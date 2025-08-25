@@ -2,46 +2,41 @@
 
  font-family: Inter;
  align-items: center ;
- text-align: center;
  justify-content: center ;
  padding: 3rem;
  background-color: #030027;
  color:#fcf7f8 ;
+line-height: 1.8;
 }
 
 #title{
   text-align: center;
   margin-top: -1%;
+  font-size: 40px;
 }
 
 
 #first-paragraph {
-  position: relative;
-  display: block;
-  padding-right: 31%;
-  margin-top: 8%;
-  margin-bottom: 3%;
+  display: flex;
+  margin-top: 5rem;
 }
 
-#first-paragraph h3 {
-  width: 650px;
-  text-align: left;
-  justify-self: center;
-  margin-left: 5%;
-
-
+#first-paragraph p{
+  margin-top: 4rem;
+  padding-right: 50px;
+  max-width: 90rem;
 
 }
+p{
+  font-size: 25px;
+}
+
+
+
 
 #first-paragraph img {
-  position: absolute;
-  margin-right: 10%;
-  margin-bottom: -2%;
-  right: 0px;
-  bottom: 20px;
-  height: 350px;
-
-
+  margin-top: 190px;
+  height: 370px;
 
 }
 
@@ -50,6 +45,7 @@
   display: flex;
   text-align: left;
   justify-content: center;
+  margin-top: 45px;
 }
 
 #second-paragraph h3{
@@ -73,4 +69,10 @@
 
   height: 120px;
   margin-top: 2%;
+}
+
+@media(width:1000px){
+#first-paragraph img{
+  display:none;
+}
 }
