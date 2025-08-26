@@ -145,6 +145,15 @@ button:hover{
     align-items: center;
 }
 
+.imgMobileQ{
+  display: flex;
+    padding: 2rem;
+    width: 25rem;
+    max-height: 25rem;
+    place-items: center;
+    align-items: center;
+}
+
 .Dbutton{
     background-color: #ee964b;
     color: #fcf7f8;

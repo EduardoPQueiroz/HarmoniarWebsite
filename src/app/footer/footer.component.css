@@ -16,11 +16,10 @@
     padding: 0;
 }
 .ft-section{
-    width: 33%;
-    padding: 2em 7em;
+  padding-top: 50px;
+    max-width: 33%;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
 }
 #midiasSection{
     display: flex;
@@ -53,10 +52,7 @@
     margin: 1em;
 }
 
-.LogoImg{
-    width: 20em;
 
-}
 .LinkIcon{
     width: 25px;
     padding: 1em 1em 1em 0;
@@ -76,3 +72,16 @@
 .ft-text{
   margin: 3vh;
 }
+.LogoImg{
+ width:100%;
+}
+@media(max-width:1000px)
+{
+.LogoImg{
+  display: none;
+}
+.ft-section{
+  display: flex;
+}
+}
+

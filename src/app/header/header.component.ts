@@ -10,18 +10,9 @@ import { RouterModule } from '@angular/router';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
-isMenuOpen = false;
-
-b="";
-
+isMenuOpen=true;
   toggleMenu() {
-    console.log("socorroo");
     this.isMenuOpen=!this.isMenuOpen;
-    if(this.isMenuOpen==true){
-      this.b="mobile-menu";
-    }
-    else{
-      this.b="";
-    }
+
   }
 }
