@@ -30,17 +30,33 @@
   </nav>
 </header>
 <div class="Mobile">
-<img src="./../../assets/img/Harmoniar_arquivos/Logo_Escura_SemFundo.png" alt="LogoMobile" id="LogoMobile">
-<button class="hamburguer" (click)="toggleMenu()">
-  <span></span>
-  <span></span>
-  <span></span>
-</button>
-@if (isMenuOpen) {
-<ul class="mobile-menu">
-  <li><a href="#">Início</a></li>
-  <li><a href="#">Sobre</a></li>
-  <li><a href="#">Contato</a></li>
-</ul>
-}
+<img src="./../../assets/img/Harmoniar_arquivos/MiniLogoMarca.png" alt="LogoMobile" id="LogoMobile">
+
+  <nav>
+    <a routerLink="/">
+        <div class="mobileImg">
+        <img src="./../../assets/img/Harmoniar_arquivos/Home_Icon.png" class="casa" alt="homeicon">
+        <p>Home</p>
+        </div>
+    </a>
+    <a routerLink="/sobre-nos">
+        <div class="mobileImg">
+        <img src="./../../assets/img/Harmoniar_arquivos/User_Icon.png" class="user" alt="aboutusicon">
+        <p>Sobre Nós</p>
+        </div>
+    </a>
+    <a routerLink="/missao-valores">
+        <div class="mobileImg">
+        <img src="./../../assets/img/Harmoniar_arquivos/Missao_Icon.png" class="missao" alt="mvvicon">
+        <p>Missão e Valores</p>
+        </div>
+    </a>
+    <a routerLink="/nosso-aplicativo">
+        <div class="mobileImg">
+        <img src="./../../assets/img/Harmoniar_arquivos/App_Icon.png" class="app" alt="ouappicon">
+        <p>Nosso Aplicativo</p>
+        </div>
+    </a>
+  </nav>
+
 </div>

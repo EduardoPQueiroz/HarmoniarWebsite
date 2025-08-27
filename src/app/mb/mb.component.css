@@ -32,9 +32,18 @@ p{
 }
 
 
+.Mharmoniar{
+  display:none;
+  margin-top: 190px;
+  height: 370px;
+  place-items: center;
+  margin:auto;
+  padding: 2rem;
+}
 
 
-#first-paragraph img {
+.Wharmoniar{
+  display:block;
   margin-top: 190px;
   height: 370px;
 
@@ -66,13 +75,15 @@ p{
 
 
 #second-paragraph img{
-
   height: 120px;
   margin-top: 2%;
 }
 
-@media(width:1000px){
-#first-paragraph img{
+@media(max-width:1000px){
+.Wharmoniar {
   display:none;
+}
+.Mharmoniar{
+  display:block;
 }
 }
