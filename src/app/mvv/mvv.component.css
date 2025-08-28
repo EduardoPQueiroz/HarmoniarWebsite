@@ -1,0 +1,47 @@
+.container {
+ padding: 50px;
+ font-family: 'Inter', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ background-color: #030027;
+ color: #fcf7f8;
+ line-height: 1.8;
+
+
+}
+.titulo {
+  font-size: 22px;
+  text-align: center;
+  margin-top: 40px;
+  padding: 4rem;
+}
+
+h2 {
+  font-size: 40px;
+  padding-left: 1.6;
+  margin-bottom: 20px;
+}
+
+
+p {
+  margin-bottom: 7rem;
+  font-size: 25px;
+
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 30px;
+  margin-top: 10px;
+  margin-bottom: 80px;
+}
+
+ul li {
+  margin-bottom: 8px;
+  font-size: 25px;
+}
+
+.back{
+ max-width: 1020px;
+ align-items: center;
+ margin-left: auto;
+ margin-right: auto;
+}

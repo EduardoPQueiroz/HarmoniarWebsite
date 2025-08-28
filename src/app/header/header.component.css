@@ -1,0 +1,107 @@
+.header {
+  font-family:Inter;
+  font-size: 25px;
+  display:flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly; /* distribui igualmente */
+  background-color: #030027;
+  border-bottom: 4px solid #ee964b; /* cor, espessura e estilo da "margem" */
+}
+.Mobile{
+  font-family:Inter;
+  font-size: 25px;
+  display:none;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between; /* distribui igualmente */
+  background-color: #030027;
+  border-bottom: 4px solid #ee964b; /* cor, espessura e estilo da "margem" */
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+
+
+
+
+
+
+@media (max-width: 1000px) {
+.Mobile{
+display: flex;
+}
+.header{
+  display: none;
+}
+.hamburguer{
+  display:flex;
+}
+.mobile-menu{
+  display:flex;
+}
+
+}
+
+.mobileImg{
+  width: 15%;
+  place-items: center;
+  padding: 2rem;
+}
+
+.mobileImg p{
+  font-size: 10px;
+  display: flex;
+}
+
+nav{
+  display:flex;
+  flex-direction: row;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+.casa{
+  color: white;
+    width: 25px;
+    height: 25px;
+}
+.user{
+  color: white;
+    width: 25px;
+    height: 25px;
+}
+.missao{
+  color: white;
+    width: 20px;
+    height: 27px;
+}
+.app{
+  color: white;
+    width: 20px;
+    height: 27px;
+}
+.imagens{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+#logo{
+  width: 12em;
+  padding: 1em;
+}
+#LogoMobile{
+  width:80px;
+  height:80px ;
+  padding: 1rem;
+  display: flex;
+}
+
+
